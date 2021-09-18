@@ -64,7 +64,7 @@ ft_memcmp  | ft_strdup  | &nbsp;     | &nbsp;        | &nbsp;     | ft_lstiter
 ```bash
 git clone https://github.com/GitFlaviobc/Libft.git
 ```
-
+Inside the Project folder:
 - to create the library
 ```bash
 make
