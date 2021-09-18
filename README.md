@@ -1,6 +1,5 @@
 # Libft - My first C library
 
-
 <h1 name ="content" align = "center">📋 Table of contents</h1>
 <p align = "center">
   <a href = "#intro">Intro</a> -
@@ -9,11 +8,12 @@
   <a href = "#function">Functions</a> -
   <a href = "#how">How to use</a> -
   <a href = "#test">Tests</a> -
+  <a href = "#update">Update</a> -
   <a href = "#author">Author</a>
 </p>
 
 <a name="intro"/> <h2> Intro </h2> </a>
-- This was my first project at école 42 SP after their basecamp (3 weeks of intense learning. Where I learned C and shell commands for the first time).
+- This was my first project at école 42 SP after their basecamp (3 weeks of intense code learning. Where I learned C and shell commands for the first time).
 - The hardest part of the project was to get all the information from the basecamp and put together to create the library. I had to make sure that my base was good, so I could move forward to bigger projects.
 - I learned about Libraries, Header Files, Makefile.
 - Also I challenge myself to do the bonus and learned about Structs and Linked List.
@@ -38,16 +38,38 @@
 <a href = "#content">📋</a>
 
 <a name="function"/> <h2> 📚 Functions </h2> </a>
-The functions on this project
+
+Memmory    | String     | Char       | Print         | Conversion | Linked List 
+---        | ---        | ---        |---            |---         |---
+ft_calloc  | ft_strlen  | ft_isalpha | ft_putchar_fd | ft_toupper | ft_lstnew
+ft_memset  | ft_strlcy  | ft_isdigit | ft_putstr_fd  | ft_tolower | ft_lstadd_front
+ft_bzero   | ft_strlcat | ft_isalnum | ft_putendl_fd | ft_atoi    | ft_lstsize
+ft_memcpy  | ft_strchr  | ft_isascii | ft_putnbr_fd  | ft_itoa    | ft_lstlast
+ft_memccpy | ft_strrchr | ft_isprint | &nbsp;        | &nbsp;     | ft_lstadd_back
+ft_memmove | ft_strnstr | &nbsp;     | &nbsp;        | &nbsp;     | ft_lstdelone
+ft_memchar | ft_strncmp | &nbsp;     | &nbsp;        | &nbsp;     | ft_lstclear
+ft_memcmp  | ft_strdup  | &nbsp;     | &nbsp;        | &nbsp;     | ft_lstiter
+&nbsp;     | ft_substr  | &nbsp;     | &nbsp;        | &nbsp;     | ft_lstmap
+&nbsp;     | ft_strjoin | &nbsp;     | &nbsp;        | &nbsp;     | &nbsp;
+&nbsp;     | ft_strtrim | &nbsp;     | &nbsp;        | &nbsp;     | &nbsp;
+&nbsp;     | ft_split   | &nbsp;     | &nbsp;        | &nbsp;     | &nbsp;
+&nbsp;     | ft_strmapi | &nbsp;     | &nbsp;        | &nbsp;     | &nbsp;
+
 <p></p>
 <a href = "#content">📋</a>
 
 <a name="how"/> <h2> 📖 How to use </h2> </a>
 
+- Clone the repository
+```bash
+git clone https://github.com/GitFlaviobc/Libft.git
+```
+
 - to create the library
 ```bash
 make
 ```
+or
 ```bash
 make all
 ```
@@ -77,6 +99,11 @@ make re
 
 ###### *42 changes the projects from time to time, and the test keep being updated to follow it. So this project may be outdated for the tests.
 
+<p></p>
+<a href = "#content">📋</a>
+
+<a name="update"/> <h2> 🆙 Updates </h2> </a>
+- The code I sent to evaluation will be kept the same. Any update will be on the update folder.⚠️🚧
 <p></p>
 <a href = "#content">📋</a>
 
