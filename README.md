@@ -34,7 +34,7 @@
 - VS code
 - WSL ubuntu
 - Norminette 42 (code norm used by école 42)
-- Remote SSH access to iMac for final tests.
+- Remote SSH access to iMac for tests.
 <p></p>
 <a href = "#content">📋</a>
 
