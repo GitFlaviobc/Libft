@@ -34,6 +34,7 @@
 - VS code
 - WSL ubuntu
 - Norminette 42 (code norm used by école 42)
+- Remote SSH access to iMac for final tests.
 <p></p>
 <a href = "#content">📋</a>
 
@@ -91,10 +92,11 @@ make re
 
 <a name="test"/> <h2> 👨‍💻 Tests </h2> </a>
 - Note: I didn't created any of the test, I just used them to check my project. All credit goes to their creators. <p></p>
-  - [libftTester](https://github.com/Tripouille/libftTester) <p></p>
+  - [libftTester](https://github.com/cclaude42/PFT_2019) <p></p>
   - [libft-unit-test](https://github.com/alelievr/libft-unit-test) <p></p>
-  - [Libftest](https://github.com/jtoty/Libftest) <p></p>
+  - [Libftest](https://github.com/cacharle/ft_printf_test) <p></p>
   - [libft-war-machine](https://github.com/ska42/libft-war-machine)
+- All tests were done on the browser connect with SSH to an iMac.
 <p></p>
 
 ###### *42 changes the projects from time to time, and the test keep being updated to follow it. So this project may be outdated for the tests.
